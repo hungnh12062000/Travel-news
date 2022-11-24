@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png" />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Responsive Website Travel</title>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="./index.html" class="nav__logo">Dulichbalo.org</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="./category.html" class="nav__link active-link"
+                >Việt Nam</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="./category.html" class="nav__link">Thế giới</a>
+            </li>
+            <li class="nav__item">
+              <a href="./category.html" class="nav__link">Ẩm thực</a>
+            </li>
+            <li class="nav__item">
+              <a href="./category.html" class="nav__link">Mẹo du lịch</a>
+            </li>
+          </ul>
+
+          <div class="nav__dark">
+            <!-- Theme change button -->
+            <span class="change-theme-name">Dark mode</span>
+            <i class="ri-moon-line change-theme" id="theme-button"></i>
+          </div>
+
+          <i class="ri-close-line nav__close" id="nav-close"></i>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-function-line"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home" id="home">
+        <img src="assets/img/home4.jpg" alt="" class="home__img" />
+
+        <div class="home__container container grid">
+          <div class="home__data">
+            <span class="home__data-subtitle">Danh mục</span>
+            <h1 class="home__data-title">Du lịch Việt Nam</h1>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================ SINGLE ================== -->
+      <div class="single section">
+        <div class="single__container container grid">
+          <div class="single__content">
+            <article class="has-post-thumbnail entry post-ftoc">
+              <header class="entry-header">
+                <div class="entry-header__cate">
+                  <span class="post-cate">Miền trung</span>
+                  <span class="post-topic">Du lich Đà Nẵng</span>
+                </div>
+                <div class="entry-header__title">DECORATE MY CORNER</div>
+                <div class="entry-header__date">June 7, 2017</div>
+              </header>
+
+              <div class="entry-content">
+                <div class="ftwp-postcontent">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quibusdam adipisci labore, libero excepturi sit quasi
+                    molestias ipsam neque optio necessitatibus atque natus ex
+                    aliquam voluptatibus dolorem, asperiores, eius quod alias?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quibusdam adipisci labore, libero excepturi sit quasi
+                    molestias ipsam neque optio necessitatibus atque natus ex
+                    aliquam voluptatibus dolorem, asperiores, eius quod alias?
+                  </p>
+
+                  <div class="wp-caption">
+                    <img src="./assets/img/home6.jpg" alt="" />
+                    <p class="wp-caption-text">
+                      Đi du lịch Đà Nẵng hết bao nhiêu tiền?
+                    </p>
+                  </div>
+
+                  <div class="no_bullets">
+                    <p class="toc_title">
+                      Tóm tắt nội dung
+                      <span class="toc_toggle">[<a href="#">Ẩn</a>]</span>
+                    </p>
+                    <ul class="toc_list">
+                      <li>
+                        <a
+                          href="#Tat_tan_tat_cac_chi_phi_di_du_lich_Da_Nang_het_bao_nhieu_tien"
+                          >Tất tần tật các chi phí đi du lịch Đà Nẵng hết bao
+                          nhiêu tiền?</a
+                        >
+                        <ul>
+                          <li>
+                            <a
+                              href="#Chi_phi_di_chuyen_toi_Da_Nang_het_bao_nhieu"
+                              >Chi phí di chuyển tới Đà Nẵng hết bao nhiêu?</a
+                            >
+                          </li>
+                          <li>
+                            <a href="#Chi_phi_khach_san_o_Da_Nang_het_bao_nhieu"
+                              >Chi phí khách sạn ở Đà Nẵng hết bao nhiêu?</a
+                            >
+                          </li>
+                          <li>
+                            <a href="#Chi_phi_di_lai_o_Da_Nang_het_bao_nhieu"
+                              >Chi phí đi lại ở Đà Nẵng hết bao nhiêu?</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="#Chi_phi_di_tham_quan_cac_dia_diem_du_lich_o_Da_Nang"
+                              >Chi phí đi tham quan các địa điểm du lịch ở Đà
+                              Nẵng&nbsp;</a
+                            >
+                          </li>
+                          <li>
+                            <a href="#Chi_phi_an_uong_o_Da_Nang_het_bao_nhieu"
+                              >Chi phí ăn uống ở Đà Nẵng hết bao nhiêu?</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <a
+                          href="#Vay_tong_chi_phi_di_du_lich_Da_Nang_het_bao_nhieu_tien"
+                          >Vậy tổng chi phí đi du lịch Đà Nẵng hết bao nhiêu
+                          tiền?</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+
+                  <h2>
+                    <span
+                      ><strong
+                        >Tất tần tật các chi phí đi du lịch Đà Nẵng hết bao
+                        nhiêu tiền?</strong
+                      ></span
+                    >
+                  </h2>
+
+                  <p>
+                    <span>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Quibusdam adipisci labore, libero excepturi sit quasi
+                      molestias ipsam neque optio necessitatibus atque natus ex
+                      aliquam voluptatibus dolorem, asperiores, eius quod alias?
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Quibusdam adipisci labore, libero excepturi sit quasi
+                      molestias ipsam neque optio necessitatibus atque natus ex
+                      aliquam voluptatibus dolorem, asperiores, eius quod alias?
+                    </span>
+                  </p>
+
+                  <h3>
+                    <span
+                      ><em
+                        >Chi phí di chuyển tới Đà Nẵng hết bao nhiêu?</em
+                      ></span
+                    >
+                  </h3>
+                  <p>
+                    <span>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Quibusdam adipisci labore, libero excepturi sit quasi
+                      molestias ipsam neque optio necessitatibus atque natus ex
+                      aliquam voluptatibus dolorem, asperiores, eius quod alias?
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Quibusdam adipisci labore, libero excepturi sit quasi
+                      molestias ipsam neque optio necessitatibus atque natus ex
+                      aliquam voluptatibus dolorem, asperiores, eius quod alias?
+                    </span>
+                  </p>
+                  <p>
+                    <span>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Quibusdam adipisci labore, libero excepturi sit quasi
+                      molestias ipsam neque optio necessitatibus atque natus ex
+                      aliquam voluptatibus dolorem, asperiores, eius quod alias?
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Quibusdam adipisci labore, libero excepturi sit quasi
+                      molestias ipsam neque optio necessitatibus atque natus ex
+                      aliquam voluptatibus dolorem, asperiores, eius quod alias?
+                    </span>
+                  </p>
+                  <p>
+                    <span>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Quibusdam adipisci labore, libero excepturi sit quasi
+                      molestias ipsam neque optio necessitatibus atque natus ex
+                      aliquam voluptatibus dolorem, asperiores, eius quod alias?
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Quibusdam adipisci labore, libero excepturi sit quasi
+                      molestias ipsam neque optio necessitatibus atque natus ex
+                      aliquam voluptatibus dolorem, asperiores, eius quod alias?
+                    </span>
+                  </p>
+
+                  <h3>
+                    <span
+                      ><em>Chi phí đi lại ở Đà Nẵng hết bao nhiêu?</em></span
+                    >
+                  </h3>
+
+                  <p>
+                    <span
+                      >Sau khi đã hạ cánh ở Đà Nẵng, bạn cũng nên tìm kiếm
+                      phương tiện di chuyển trong suốt những ngày du hí ở đây.
+                      Có khá nhiều phương tiện di chuyển như:xe máy, taxi hoặc
+                      xe đưa đón.&nbsp;</span
+                    >
+                  </p>
+
+                  <ul>
+                    <li aria-level="1">
+                      <b><i>Xe máy:</i></b>
+                      <span
+                        >Đây là phương tiện di chuyển tiết kiệm được nhiều chi
+                        phí du lịch. Đặc biệt là những hành khách đi du lịch tự
+                        túc với nhóm ít người thì phương tiện này chính là gợi ý
+                        tuyệt vời nhất. Trong khu vực thành phố có khá nhiều địa
+                        chỉ cho thuê xe máy tận nơi với giá từ </span
+                      ><b>120K – 150K/ngày</b
+                      ><span>
+                        chưa bao gồm xăng xe. Hoặc bạn cũng có thể về khách
+                        sạn/homestay rồi thuê xe trực tiếp ở đây
+                        nhé.&nbsp;</span
+                      >
+                    </li>
+                    <li aria-level="1">
+                      <b><i>Taxi:</i></b
+                      ><span>
+                        Taxi ở Đà Nẵng rất thân thiện và có mặt ở hầu hết mọi
+                        địa điểm du lịch. Hơn thế nữa, các tài xế đều rất thân
+                        thiện và có bảng giá niêm yết trên xe. Hiện có khá nhiều
+                        hãng taxi đang hoạt động ở đây như: Tiên Sa, Mai Linh,
+                        VinaSun,… với giá từ </span
+                      ><b>9K/km </b
+                      ><span
+                        >nên du khách thoải mái lựa chọn. Mặc dù vậy, di chuyển
+                        bằng taxi cho những ngày ở Đà Thành sẽ tốn khá nhiều nên
+                        bạn hãy cân nhắc nhé.&nbsp;</span
+                      >
+                    </li>
+                    <li aria-level="1">
+                      <b><i>Xe đưa đón tận nơi: </i></b
+                      ><span
+                        >Hình thức di chuyển này chỉ phù hợp với những hành
+                        khách đi du lịch theo đoàn, gia đình có người già hoặc
+                        trẻ em. Mặc dù vậy, chúng mình khuyên bạn nên lựa chọn
+                        bởi hình thức này khá thuận tiện, an toàn mà lại tiết
+                        kiệm chi phí. Từ Đà Nẵng, bạn có thể thuê xe đưa đón đi
+                        Bà Nà Hills với giá từ </span
+                      ><b>600K/xe 4 chỗ, 650k/xe 7 chỗ, 750k/xe 16 chỗ,…</b
+                      ><span>
+                        Hoặc bạn cũng có thể thuê xe theo ngày và tự mình di
+                        chuyển cũng là một ý tưởng không tồi.</span
+                      >
+                    </li>
+                  </ul>
+
+                  <div class="wp-caption">
+                    <img src="./assets/img/home1.jpg" alt="" />
+                    <p class="wp-caption-text">
+                      Đi du lịch Đà Nẵng hết bao nhiêu tiền?
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="entry-footer">
+                <div class="entry-footer__title">Bài viết liên quan</div>
+                <div class="related-post__container">
+                  <div class="related-post__card">
+                    <div class="related-post__image">
+                      <a href=""><img src="./assets/img/home1.jpg" alt="" /></a>
+                    </div>
+                    <div class="related-post__content">
+                      <h4 class="related-post__title">
+                        <a href="./single.html">Green Corner in My Home</a>
+                      </h4>
+                      <span class="related-post__date">June 7, 2017</span>
+                    </div>
+                  </div>
+                  <div class="related-post__card">
+                    <div class="related-post__image">
+                      <a href=""><img src="./assets/img/home1.jpg" alt="" /></a>
+                    </div>
+                    <div class="related-post__content">
+                      <h4 class="related-post__title">
+                        <a href="./single.html">Green Corner in My Home</a>
+                      </h4>
+                      <span class="related-post__date">June 7, 2017</span>
+                    </div>
+                  </div>
+                  <div class="related-post__card">
+                    <div class="related-post__image">
+                      <a href=""><img src="./assets/img/home1.jpg" alt="" /></a>
+                    </div>
+                    <div class="related-post__content">
+                      <h4 class="related-post__title">
+                        <a href="./single.html">Green Corner in My Home</a>
+                      </h4>
+                      <span class="related-post__date">June 7, 2017</span>
+                    </div>
+                  </div>
+                  <div class="related-post__card">
+                    <div class="related-post__image">
+                      <a href=""><img src="./assets/img/home1.jpg" alt="" /></a>
+                    </div>
+                    <div class="related-post__content">
+                      <h4 class="related-post__title">
+                        <a href="./single.html">Green Corner in My Home</a>
+                      </h4>
+                      <span class="related-post__date">June 7, 2017</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="entry-footer__title">Để lại bình luận</div>
+                <div class="comment__container">
+                  <div class="comment__form--wrap">
+                    <form action="#" method="post" id="contact-form">
+                      <div class="form__row">
+                        <input
+                          type="text"
+                          id="contact-name"
+                          name="contact-name"
+                          placeholder="Họ và tên*"
+                          fe-name="Name"
+                          value=""
+                          required=""
+                          data-original-title=""
+                          title=""
+                          autocomplete="off"
+                        />
+                        <input
+                          type="text"
+                          nid="contact-email"
+                          name="contact-email"
+                          placeholder="Email*"
+                          fe-name="Email"
+                          value=""
+                          required=""
+                          data-original-title=""
+                          title=""
+                          autocomplete="off"
+                        />
+                        <input
+                          type="text"
+                          id="contact-web"
+                          name="contact-web"
+                          fe-name="website"
+                          value=""
+                          placeholder="Trang web"
+                          data-original-title=""
+                          title=""
+                          autocomplete="off"
+                        />
+                      </div>
+                      <textarea
+                        name="contact-content"
+                        id="contact-content"
+                        placeholder="Nội dung"
+                        fe-name="Message"
+                        required=""
+                        data-original-title=""
+                        title=""
+                      ></textarea>
+                      <button
+                        type="button"
+                        class="btn__send"
+                        id="contact-submit"
+                        name="contact-submit"
+                      >
+                        Gửi
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="single__sidebar">
+            <aside class="widget__sidebar widget__last-news">
+              <h3 class="widget__title"><span>Recent Posts</span></h3>
+              <ul class="widget__newsfeed">
+                <li class="widget__newsfeed--item">
+                  <div class="side-item">
+                    <div class="side-image">
+                      <a href=""><img src="./assets/img/home1.jpg" alt="" /></a>
+                    </div>
+                    <div class="side-item__content">
+                      <h4 class="side-item__title">
+                        <a href="./single.html">Green Corner in My Home</a>
+                      </h4>
+                      <span class="side-item__date">June 7, 2017</span>
+                    </div>
+                  </div>
+                </li>
+                <li class="widget__newsfeed--item">
+                  <div class="side-item">
+                    <div class="side-image">
+                      <a href=""><img src="./assets/img/home2.jpg" alt="" /></a>
+                    </div>
+                    <div class="side-item__content">
+                      <h4 class="side-item__title">
+                        <a href="./single.html">Far far away in the Sea</a>
+                      </h4>
+                      <span class="side-item__date">June 7, 2022</span>
+                    </div>
+                  </div>
+                </li>
+                <li class="widget__newsfeed--item">
+                  <div class="side-item">
+                    <div class="side-image">
+                      <a href=""><img src="./assets/img/home3.jpg" alt="" /></a>
+                    </div>
+                    <div class="side-item__content">
+                      <h4 class="side-item__title">
+                        <a href="./single.html">Writing New Life Chapter</a>
+                      </h4>
+                      <span class="side-item__date">June 7, 2023</span>
+                    </div>
+                  </div>
+                </li>
+                <li class="widget__newsfeed--item">
+                  <div class="side-item">
+                    <div class="side-image">
+                      <a href=""><img src="./assets/img/home6.jpg" alt="" /></a>
+                    </div>
+                    <div class="side-item__content">
+                      <h4 class="side-item__title">
+                        <a href="./single.html">DECORATE MY CORNER</a>
+                      </h4>
+                      <span class="side-item__date">June 8, 2023</span>
+                    </div>
+                  </div>
+                </li>
+                <li class="widget__newsfeed--item">
+                  <div class="side-item">
+                    <div class="side-image">
+                      <a href=""><img src="./assets/img/home4.jpg" alt="" /></a>
+                    </div>
+                    <div class="side-item__content">
+                      <h4 class="side-item__title">
+                        <a href="./single.html">SAND IN SAN FRANCISCO</a>
+                      </h4>
+                      <span class="side-item__date">June 5, 2021</span>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </aside>
+            <aside class="widget__sidebar widget__category">
+              <h3 class="widget__title"><span>Category</span></h3>
+              <div class="img-test">
+                <img src="./assets/img/test.png" alt="" />
+              </div>
+            </aside>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+      <div class="footer__container container grid">
+        <div class="footer__content grid">
+          <div class="footer__data">
+            <h3 class="footer__title">Dulichbalo.org</h3>
+            <p class="footer__description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid,
+              deleniti, facere eligendi, impedit ducimus suscipit molestias
+              corporis itaque quos repudiandae quas? Enim necessitatibus nemo
+              vero expedita hic rem doloribus officia!
+            </p>
+          </div>
+
+          <div class="footer__data">
+            <h3 class="footer__subtitle">Du lịch Việt Nam</h3>
+            <ul>
+              <li class="footer__item">
+                <a href="" class="footer__link">Du lịch Hà Nội</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">Du lịch Nha Trang</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">Du lịch Phú Quốc</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">Du lịch Côn Đảo</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">Du lịch Vũng Tàu</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__data">
+            <h3 class="footer__subtitle">Du lịch thế giới</h3>
+            <ul>
+              <li class="footer__item">
+                <a href="" class="footer__link">Du lịch Thái Lan</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">Du lịch Trung Quốc</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">Du lịch Singapore</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">Du lịch Nhật Bản</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">Du lịch Mông Cổ</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__data">
+            <h3 class="footer__subtitle">Ẩm thực du lịch</h3>
+            <ul>
+              <li class="footer__item">
+                <a href="" class="footer__link">Ẩm thực Đà Lạt</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">Ẩm thực Sài Gòn</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">Ẩm thực Huế</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">Ẩm thực Nha Trang</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">Ẩm thực Phú Quốc</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer__rights">
+          <p class="footer__copy">
+            &#169; 2023 Du lịch ba lô Kinh nghiệm du lịch trong nước đầy đủ nhất
+          </p>
+          <div class="footer__terms">
+            <a href="#" class="footer__terms-link">Điều khoản sử dụng</a>
+            <a href="#" class="footer__terms-link">Chính sách bảo mật</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line scrollup__icon"></i>
+    </a>
+
+    <!--=============== SCROLL REVEAL===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

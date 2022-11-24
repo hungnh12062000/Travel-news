@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png" />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Responsive Website Travel</title>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Dulichbalo.org</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="./category.html" class="nav__link">Việt Nam</a>
+            </li>
+            <li class="nav__item">
+              <a href="./category.html" class="nav__link">Thế giới</a>
+            </li>
+            <li class="nav__item">
+              <a href="./category.html" class="nav__link">Ẩm thực</a>
+            </li>
+            <li class="nav__item">
+              <a href="./category.html" class="nav__link">Mẹo du lịch</a>
+            </li>
+          </ul>
+
+          <div class="nav__dark">
+            <!-- Theme change button -->
+            <span class="change-theme-name">Dark mode</span>
+            <i class="ri-moon-line change-theme" id="theme-button"></i>
+          </div>
+
+          <i class="ri-close-line nav__close" id="nav-close"></i>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-function-line"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home" id="home">
+        <img src="assets/img/home1.jpg" alt="" class="home__img" />
+
+        <div class="home__container container grid">
+          <div class="home__data">
+            <span class="home__data-subtitle">Discover your place</span>
+            <h1 class="home__data-title">
+              Explore The <br />
+              Best
+              <b
+                >Beautiful <br />
+                Beaches</b
+              >
+            </h1>
+            <a href="#" class="button">Explore</a>
+          </div>
+
+          <div class="home__info">
+            <div>
+              <span class="home__info-title">5 best places to visit</span>
+              <a
+                href=""
+                class="button button--flex button--link home__info-button"
+              >
+                More <i class="ri-arrow-right-line"></i>
+              </a>
+            </div>
+
+            <div class="home__info-overlay">
+              <img src="assets/img/home2.jpg" alt="" class="home__info-img" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =============== DESTINATION INTER =========== -->
+      <!-- begin destination__inter -->
+      <div class="destination__inter--wrap">
+        <div
+          class="penci-border-arrow penci-homepage-title penci-magazine-title style-14 pcalign-left"
+        >
+          <h3 class="inner-arrow">Ẩm thực</h3>
+          <h3 class="inner-arrow__view-all">
+            <a href="">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20px"
+                height="20px"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M12 4.5v15m7.5-7.5h-15"
+                />
+              </svg>
+              <span>Xem tất cả</span></a
+            >
+          </h3>
+        </div>
+        <div class="destination__inter container-fluid">
+          <div class="destination__inter--item">
+            <a href="./index.html">
+              <div class="box-title">
+                Top 9+ địa điểm du lịch gần Sài Gòn 2 ngày 1 đêm
+              </div>
+              <img src="./assets/img/discover1.jpg" loading="lazy" alt="" />
+            </a>
+          </div>
+          <div class="destination__inter--item">
+            <a href="./index.html">
+              <div class="box-title">
+                Kinh nghiệm du lịch Vũng Tàu 2 ngày 1 đêm tự túc từ A – Z
+              </div>
+              <img src="./assets/img/discover2.jpg" loading="lazy" alt="" />
+            </a>
+          </div>
+          <div class="destination__inter--item">
+            <a href="./index.html">
+              <div class="box-title">
+                Top những địa điểm vui chơi ở gần Sài Gòn được yêu thích nhất?
+              </div>
+              <img src="./assets/img/discover3.jpg" loading="lazy" alt="" />
+            </a>
+          </div>
+          <div class="destination__inter--item">
+            <a href="./index.html">
+              <div class="box-title">
+                Top 8+ điểm du lịch “phượt” 1 ngày quanh Sài Gòn
+              </div>
+              <img src="./assets/img/discover4.jpg" loading="lazy" alt="" />
+            </a>
+          </div>
+          <div class="destination__inter--item">
+            <a href="./index.html">
+              <div class="box-title">
+                Từ Buôn Mê Thuột đi Pleiku bao nhiêu km?
+              </div>
+              <img src="./assets/img/experience2.jpg" loading="lazy" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- end destination__inter -->
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <div class="about__data">
+            <h2 class="section__title about__title">
+              More Information <br />
+              About The Best Beaches
+            </h2>
+            <p class="about__description">
+              You can find the most beautiful and pleasant places at the best
+              prices with special discounts, you choose the place we will guide
+              you all the way to wait, get your place now.
+            </p>
+            <a href="#" class="button">Reserve a place</a>
+          </div>
+
+          <div class="about__img">
+            <div class="about__img-overlay">
+              <img src="assets/img/about1.jpg" alt="" class="about__img-one" />
+            </div>
+
+            <div class="about__img-overlay">
+              <img src="assets/img/about2.jpg" alt="" class="about__img-two" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== DISCOVER ====================-->
+      <section class="discover section" id="discover">
+        <h2 class="section__title">Du lịch Việt Nam</h2>
+
+        <div class="discover__container container-fluid swiper-container">
+          <div class="swiper-wrapper">
+            <!--==================== DISCOVER 1 ====================-->
+            <div class="discover__card swiper-slide">
+              <img
+                src="assets/img/discover1.jpg"
+                alt=""
+                class="discover__img"
+              />
+              <div class="discover__data">
+                <h2 class="discover__title">Phú Quốc</h2>
+              </div>
+              <a
+                href="https://vemaybaynamphuong.vn/"
+                class=""
+                target="_blank"
+              ></a>
+            </div>
+
+            <!--==================== DISCOVER 2 ====================-->
+            <div class="discover__card swiper-slide">
+              <img
+                src="assets/img/discover2.jpg"
+                alt=""
+                class="discover__img"
+              />
+              <div class="discover__data">
+                <h2 class="discover__title">Vũng Tàu</h2>
+              </div>
+            </div>
+
+            <!--==================== DISCOVER 3 ====================-->
+            <div class="discover__card swiper-slide">
+              <img
+                src="assets/img/discover3.jpg"
+                alt=""
+                class="discover__img"
+              />
+              <div class="discover__data">
+                <h2 class="discover__title">Côn Đảo</h2>
+              </div>
+            </div>
+
+            <!--==================== DISCOVER 4 ====================-->
+            <div class="discover__card swiper-slide">
+              <img
+                src="assets/img/discover4.jpg"
+                alt=""
+                class="discover__img"
+              />
+              <div class="discover__data">
+                <h2 class="discover__title">Nha Trang</h2>
+              </div>
+            </div>
+
+            <!--==================== DISCOVER 5 ====================-->
+            <div class="discover__card swiper-slide">
+              <img src="assets/img/place1.jpg" alt="" class="discover__img" />
+              <div class="discover__data">
+                <h2 class="discover__title">Hà Nội</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== PLACES ====================-->
+      <section class="place section" id="place">
+        <div
+          class="penci-border-arrow penci-homepage-title penci-magazine-title style-14 pcalign-left"
+        >
+          <h3 class="inner-arrow">Thế giới</h3>
+          <h3 class="inner-arrow__view-all">
+            <a href="">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20px"
+                height="20px"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M12 4.5v15m7.5-7.5h-15"
+                />
+              </svg>
+              <span>Xem tất cả</span></a
+            >
+          </h3>
+        </div>
+        <div class="place__container container-fluid grid">
+          <!--==================== PLACES CARD 1 ====================-->
+          <div class="place__card">
+            <img src="assets/img/place1.jpg" alt="" class="place__img" />
+
+            <div class="place__content">
+              <span class="place__rating"> </span>
+
+              <div class="place__data">
+                <h3 class="place__title">Bali</h3>
+                <span class="place__subtitle">Indonesia</span>
+              </div>
+            </div>
+
+            <button class="button button--flex place__button">
+              <i class="ri-arrow-right-line"></i>
+            </button>
+
+            <a
+              href="https://vemaybaynamphuong.vn/"
+              class=""
+              target="_blank"
+            ></a>
+          </div>
+
+          <!--==================== PLACES CARD 2 ====================-->
+          <div class="place__card">
+            <img src="assets/img/place2.jpg" alt="" class="place__img" />
+
+            <div class="place__content">
+              <span class="place__rating"> </span>
+
+              <div class="place__data">
+                <h3 class="place__title">Bora Bora</h3>
+                <span class="place__subtitle">Polinesia</span>
+              </div>
+            </div>
+
+            <button class="button button--flex place__button">
+              <i class="ri-arrow-right-line"></i>
+            </button>
+          </div>
+
+          <!--==================== PLACES CARD 3 ====================-->
+          <div class="place__card">
+            <img src="assets/img/place3.jpg" alt="" class="place__img" />
+
+            <div class="place__content">
+              <span class="place__rating"> </span>
+
+              <div class="place__data">
+                <h3 class="place__title">Hawaii</h3>
+                <span class="place__subtitle">EE.UU</span>
+              </div>
+            </div>
+
+            <button class="button button--flex place__button">
+              <i class="ri-arrow-right-line"></i>
+            </button>
+          </div>
+
+          <!--==================== PLACES CARD 4 ====================-->
+          <div class="place__card">
+            <img src="assets/img/place4.jpg" alt="" class="place__img" />
+
+            <div class="place__content">
+              <span class="place__rating"> </span>
+
+              <div class="place__data">
+                <h3 class="place__title">Whitehaven</h3>
+                <span class="place__subtitle">Australia</span>
+              </div>
+            </div>
+
+            <button class="button button--flex place__button">
+              <i class="ri-arrow-right-line"></i>
+            </button>
+          </div>
+
+          <!--==================== PLACES CARD 5 ====================-->
+          <div class="place__card">
+            <img src="assets/img/place5.jpg" alt="" class="place__img" />
+
+            <div class="place__content">
+              <span class="place__rating"> </span>
+
+              <div class="place__data">
+                <h3 class="place__title">Hvar</h3>
+                <span class="place__subtitle">Croacia</span>
+              </div>
+            </div>
+
+            <button class="button button--flex place__button">
+              <i class="ri-arrow-right-line"></i>
+            </button>
+          </div>
+
+          <!--==================== PLACES CARD 6 ====================-->
+          <div class="place__card">
+            <img src="assets/img/place5.jpg" alt="" class="place__img" />
+
+            <div class="place__content">
+              <span class="place__rating"> </span>
+
+              <div class="place__data">
+                <h3 class="place__title">Hvar</h3>
+                <span class="place__subtitle">Croacia</span>
+              </div>
+            </div>
+
+            <button class="button button--flex place__button">
+              <i class="ri-arrow-right-line"></i>
+            </button>
+          </div>
+          <!--==================== PLACES CARD 5 ====================-->
+          <div class="place__card">
+            <img src="assets/img/place5.jpg" alt="" class="place__img" />
+
+            <div class="place__content">
+              <span class="place__rating"> </span>
+
+              <div class="place__data">
+                <h3 class="place__title">Hvar</h3>
+                <span class="place__subtitle">Croacia</span>
+              </div>
+            </div>
+
+            <button class="button button--flex place__button">
+              <i class="ri-arrow-right-line"></i>
+            </button>
+          </div>
+
+          <!--==================== PLACES CARD 6 ====================-->
+          <div class="place__card">
+            <img src="assets/img/place5.jpg" alt="" class="place__img" />
+
+            <div class="place__content">
+              <span class="place__rating"> </span>
+
+              <div class="place__data">
+                <h3 class="place__title">Hvar</h3>
+                <span class="place__subtitle">Croacia</span>
+              </div>
+            </div>
+
+            <button class="button button--flex place__button">
+              <i class="ri-arrow-right-line"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== DOMESTIC ====================-->
+      <section class="domestic section" id="place">
+        <div class="domestic__container container-fluid grid">
+          <div class="domestic-item">
+            <div class="domestic-item__top">
+              <div
+                class="penci-border-arrow penci-homepage-title penci-magazine-title style-14 pcalign-left"
+              >
+                <h3 class="inner-arrow">Miền Bắc</h3>
+                <h3 class="inner-arrow__view-all">
+                  <a href="">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20px"
+                      height="20px"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="w-6 h-6"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M12 4.5v15m7.5-7.5h-15"
+                      />
+                    </svg>
+                    <span>Xem tất cả</span></a
+                  >
+                </h3>
+              </div>
+              <ul class="card-list">
+                <li class="card-post">
+                  <div class="image-data">
+                    <a href=""> <img src="./assets/img/place1.jpg" alt="" /></a>
+                  </div>
+                  <div class="post-data">
+                    <h5 class="post-data__title">
+                      <a href="" title="">Du lịch Đà Lạt mùa nào đẹp nhất</a>
+                    </h5>
+                    <p class="post-data__desciption">
+                      Du lịch Đà Lạt mùa nào đẹp nhất? Chuẩn bị…
+                    </p>
+                    <div class="cta">
+                      <a href="" title="">Đọc thêm &rarr;</a>
+                    </div>
+                  </div>
+                </li>
+                <li class="card-post">
+                  <div class="image-data">
+                    <a href=""> <img src="./assets/img/place1.jpg" alt="" /></a>
+                  </div>
+                  <div class="post-data">
+                    <h5 class="post-data__title">
+                      <a href="" title="">Du lịch Đà Lạt mùa nào đẹp nhất</a>
+                    </h5>
+                    <p class="post-data__desciption">
+                      Du lịch Đà Lạt mùa nào đẹp nhất? Chuẩn bị…
+                    </p>
+                    <div class="cta">
+                      <a href="" title="">Đọc thêm &rarr;</a>
+                    </div>
+                  </div>
+                </li>
+                <li class="card-post">
+                  <div class="image-data">
+                    <a href=""> <img src="./assets/img/place1.jpg" alt="" /></a>
+                  </div>
+                  <div class="post-data">
+                    <h5 class="post-data__title">
+                      <a href="" title="">Du lịch Đà Lạt mùa nào đẹp nhất</a>
+                    </h5>
+                    <p class="post-data__desciption">
+                      Du lịch Đà Lạt mùa nào đẹp nhất? Chuẩn bị một mùa hoa nở
+                      xuân sang có hoa anh đào
+                    </p>
+                    <div class="cta">
+                      <a href="" title="">Đọc thêm &rarr;</a>
+                    </div>
+                  </div>
+                </li>
+                <li class="card-post">
+                  <div class="image-data">
+                    <a href=""> <img src="./assets/img/place1.jpg" alt="" /></a>
+                  </div>
+                  <div class="post-data">
+                    <h5 class="post-data__title">
+                      <a href="" title="">Du lịch Đà Lạt mùa nào đẹp nhất</a>
+                    </h5>
+                    <p class="post-data__desciption">
+                      Du lịch Đà Lạt mùa nào đẹp nhất? Chuẩn bị…
+                    </p>
+                    <div class="cta">
+                      <a href="" title="">Đọc thêm &rarr;</a>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="domestic-item">
+            <div class="domestic-item__mid">
+              <div
+                class="penci-border-arrow penci-homepage-title penci-magazine-title style-14 pcalign-left"
+              >
+                <h3 class="inner-arrow">Miền Trung</h3>
+                <h3 class="inner-arrow__view-all">
+                  <a href="">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20px"
+                      height="20px"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="w-6 h-6"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M12 4.5v15m7.5-7.5h-15"
+                      />
+                    </svg>
+                    <span>Xem tất cả</span></a
+                  >
+                </h3>
+              </div>
+              <ul class="card-list">
+                <li class="card-post">
+                  <div class="image-data">
+                    <a href=""> <img src="./assets/img/place2.jpg" alt="" /></a>
+                  </div>
+                  <div class="post-data">
+                    <h5 class="post-data__title">
+                      <a href="" title="">Du lịch Đà Lạt mùa nào đẹp nhất</a>
+                    </h5>
+                    <p class="post-data__desciption">
+                      Du lịch Đà Lạt mùa nào đẹp nhất? Chuẩn bị…
+                    </p>
+                    <div class="cta">
+                      <a href="" title="">Đọc thêm &rarr;</a>
+                    </div>
+                  </div>
+                </li>
+                <li class="card-post">
+                  <div class="image-data">
+                    <a href=""> <img src="./assets/img/place2.jpg" alt="" /></a>
+                  </div>
+                  <div class="post-data">
+                    <h5 class="post-data__title">
+                      <a href="" title="">Du lịch Đà Lạt mùa nào đẹp nhất</a>
+                    </h5>
+                    <p class="post-data__desciption">
+                      Du lịch Đà Lạt mùa nào đẹp nhất? Chuẩn bị…
+                    </p>
+                    <div class="cta">
+                      <a href="" title="">Đọc thêm &rarr;</a>
+                    </div>
+                  </div>
+                </li>
+                <li class="card-post">
+                  <div class="image-data">
+                    <a href=""> <img src="./assets/img/place2.jpg" alt="" /></a>
+                  </div>
+                  <div class="post-data">
+                    <h5 class="post-data__title">
+                      <a href="" title="">Du lịch Đà Lạt mùa nào đẹp nhất</a>
+                    </h5>
+                    <p class="post-data__desciption">
+                      Du lịch Đà Lạt mùa nào đẹp nhất? Chuẩn bị một mùa hoa nở
+                      xuân sang có hoa anh đào
+                    </p>
+                    <div class="cta">
+                      <a href="" title="">Đọc thêm &rarr;</a>
+                    </div>
+                  </div>
+                </li>
+                <li class="card-post">
+                  <div class="image-data">
+                    <a href=""> <img src="./assets/img/place2.jpg" alt="" /></a>
+                  </div>
+                  <div class="post-data">
+                    <h5 class="post-data__title">
+                      <a href="" title="">Du lịch Đà Lạt mùa nào đẹp nhất</a>
+                    </h5>
+                    <p class="post-data__desciption">
+                      Du lịch Đà Lạt mùa nào đẹp nhất? Chuẩn bị…
+                    </p>
+                    <div class="cta">
+                      <a href="" title="">Đọc thêm &rarr;</a>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="domestic-item">
+            <div class="domestic-item__bottom">
+              <div
+                class="penci-border-arrow penci-homepage-title penci-magazine-title style-14 pcalign-left"
+              >
+                <h3 class="inner-arrow">Miền Nam</h3>
+                <h3 class="inner-arrow__view-all">
+                  <a href="">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20px"
+                      height="20px"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="w-6 h-6"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M12 4.5v15m7.5-7.5h-15"
+                      />
+                    </svg>
+                    <span>Xem tất cả</span></a
+                  >
+                </h3>
+              </div>
+              <ul class="card-list">
+                <li class="card-post">
+                  <div class="image-data">
+                    <a href=""> <img src="./assets/img/place3.jpg" alt="" /></a>
+                  </div>
+                  <div class="post-data">
+                    <h5 class="post-data__title">
+                      <a href="" title="">Du lịch Đà Lạt mùa nào đẹp nhất</a>
+                    </h5>
+                    <p class="post-data__desciption">
+                      Du lịch Đà Lạt mùa nào đẹp nhất? Chuẩn bị…
+                    </p>
+                    <div class="cta">
+                      <a href="" title="">Đọc thêm &rarr;</a>
+                    </div>
+                  </div>
+                </li>
+                <li class="card-post">
+                  <div class="image-data">
+                    <a href=""> <img src="./assets/img/place3.jpg" alt="" /></a>
+                  </div>
+                  <div class="post-data">
+                    <h5 class="post-data__title">
+                      <a href="" title="">Du lịch Đà Lạt mùa nào đẹp nhất</a>
+                    </h5>
+                    <p class="post-data__desciption">
+                      Du lịch Đà Lạt mùa nào đẹp nhất? Chuẩn bị…
+                    </p>
+                    <div class="cta">
+                      <a href="" title="">Đọc thêm &rarr;</a>
+                    </div>
+                  </div>
+                </li>
+                <li class="card-post">
+                  <div class="image-data">
+                    <a href=""> <img src="./assets/img/place3.jpg" alt="" /></a>
+                  </div>
+                  <div class="post-data">
+                    <h5 class="post-data__title">
+                      <a href="" title="">Du lịch Đà Lạt mùa nào đẹp nhất</a>
+                    </h5>
+                    <p class="post-data__desciption">
+                      Du lịch Đà Lạt mùa nào đẹp nhất? Chuẩn bị một mùa hoa nở
+                      xuân sang có hoa anh đào
+                    </p>
+                    <div class="cta">
+                      <a href="" title="">Đọc thêm &rarr;</a>
+                    </div>
+                  </div>
+                </li>
+                <li class="card-post">
+                  <div class="image-data">
+                    <a href=""> <img src="./assets/img/place3.jpg" alt="" /></a>
+                  </div>
+                  <div class="post-data">
+                    <h5 class="post-data__title">
+                      <a href="" title="">Du lịch Đà Lạt mùa nào đẹp nhất</a>
+                    </h5>
+                    <p class="post-data__desciption">
+                      Du lịch Đà Lạt mùa nào đẹp nhất? Chuẩn bị…
+                    </p>
+                    <div class="cta">
+                      <a href="" title="">Đọc thêm &rarr;</a>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+      <div class="footer__container container grid">
+        <div class="footer__content grid">
+          <div class="footer__data">
+            <h3 class="footer__title">Dulichbalo.org</h3>
+            <p class="footer__description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid,
+              deleniti, facere eligendi, impedit ducimus suscipit molestias
+              corporis itaque quos repudiandae quas? Enim necessitatibus nemo
+              vero expedita hic rem doloribus officia!
+            </p>
+          </div>
+
+          <div class="footer__data">
+            <h3 class="footer__subtitle">Du lịch Việt Nam</h3>
+            <ul>
+              <li class="footer__item">
+                <a href="" class="footer__link">Du lịch Hà Nội</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">Du lịch Nha Trang</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">Du lịch Phú Quốc</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">Du lịch Côn Đảo</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">Du lịch Vũng Tàu</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__data">
+            <h3 class="footer__subtitle">Du lịch thế giới</h3>
+            <ul>
+              <li class="footer__item">
+                <a href="" class="footer__link">Du lịch Thái Lan</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">Du lịch Trung Quốc</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">Du lịch Singapore</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">Du lịch Nhật Bản</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">Du lịch Mông Cổ</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__data">
+            <h3 class="footer__subtitle">Ẩm thực du lịch</h3>
+            <ul>
+              <li class="footer__item">
+                <a href="" class="footer__link">Ẩm thực Đà Lạt</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">Ẩm thực Sài Gòn</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">Ẩm thực Huế</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">Ẩm thực Nha Trang</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">Ẩm thực Phú Quốc</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer__rights">
+          <p class="footer__copy">
+            &#169; 2023 Du lịch ba lô Kinh nghiệm du lịch trong nước đầy đủ nhất
+          </p>
+          <div class="footer__terms">
+            <a href="#" class="footer__terms-link">Điều khoản sử dụng</a>
+            <a href="#" class="footer__terms-link">Chính sách bảo mật</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line scrollup__icon"></i>
+    </a>
+
+    <!--=============== SCROLL REVEAL===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

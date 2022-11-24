@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png" />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Responsive Website Travel</title>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="./index.html" class="nav__logo">Dulichbalo.org</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="./category.html" class="nav__link active-link"
+                >Việt Nam</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="./category.html" class="nav__link">Thế giới</a>
+            </li>
+            <li class="nav__item">
+              <a href="./category.html" class="nav__link">Ẩm thực</a>
+            </li>
+            <li class="nav__item">
+              <a href="./category.html" class="nav__link">Mẹo du lịch</a>
+            </li>
+          </ul>
+
+          <div class="nav__dark">
+            <!-- Theme change button -->
+            <span class="change-theme-name">Dark mode</span>
+            <i class="ri-moon-line change-theme" id="theme-button"></i>
+          </div>
+
+          <i class="ri-close-line nav__close" id="nav-close"></i>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-function-line"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home" id="home">
+        <img src="assets/img/home4.jpg" alt="" class="home__img" />
+
+        <div class="home__container container grid">
+          <div class="home__data">
+            <span class="home__data-subtitle">Danh mục</span>
+            <h1 class="home__data-title">Du lịch Việt Nam</h1>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================ CATEGORY ================== -->
+      <div class="category section">
+        <div class="category__container container grid">
+          <div class="category__content">
+            <ul class="category__list">
+              <li class="category__list--post">
+                <article class="post-item">
+                  <div class="post-item__thumbnail">
+                    <a href="./single.html" class=""
+                      ><img src="./assets/img/discover1.jpg" alt=""
+                    /></a>
+                  </div>
+                  <div class="post-item__content">
+                    <div class="post-item__header">
+                      <div class="post-item__header--cat">
+                        <a href="">Travel</a>
+                      </div>
+                      <h2 class="post-item__header--title">
+                        <a href="./single.html">FAR FAR AWAY IN THE SEA</a>
+                      </h2>
+                      <div class="post-item__header--date">
+                        <time class="" datetime="2017-06-07T13:45:35+00:00"
+                          >June 7, 2017</time
+                        >
+                      </div>
+                    </div>
+                    <div class="post-item__desc">
+                      Lommodo ligula eget dolor. Aenean massa. Cum sociis que
+                      penatibus et magnis dis parturient montes lorem, nascetur
+                      ridiculus mus. Donec quam felis, ultricies nec, penatibus
+                      et magnis dis parturient montes lorem, nascetur ridiculus
+                      mus. Donec quam felis, ultricies nec, pellentesque euro,
+                      pretium quis, sem. Nulla…
+                    </div>
+                  </div>
+                </article>
+              </li>
+              <li class="category__list--post">
+                <article class="post-item">
+                  <div class="post-item__thumbnail">
+                    <a href="./single.html" class=""
+                      ><img src="./assets/img/discover4.jpg" alt=""
+                    /></a>
+                  </div>
+                  <div class="post-item__content">
+                    <div class="post-item__header">
+                      <div class="post-item__header--cat">
+                        <a href="./single.html">Travel</a>
+                      </div>
+                      <h2 class="post-item__header--title">
+                        <a href="./single.html">FAR FAR AWAY IN THE SEA</a>
+                      </h2>
+                      <div class="post-item__header--date">
+                        <time class="" datetime="2017-06-07T13:45:35+00:00"
+                          >June 7, 2017</time
+                        >
+                      </div>
+                    </div>
+                    <div class="post-item__desc">
+                      Lommodo ligula eget dolor. Aenean massa. Cum sociis que
+                      penatibus et magnis dis parturient montes lorem, nascetur
+                      ridiculus mus. Donec quam felis, ultricies nec, penatibus
+                      et magnis dis parturient montes lorem, nascetur ridiculus
+                      mus. Donec quam felis, ultricies nec, pellentesque euro,
+                      pretium quis, sem. Nulla…
+                    </div>
+                  </div>
+                </article>
+              </li>
+              <li class="category__list--post">
+                <article class="post-item">
+                  <div class="post-item__thumbnail">
+                    <a href="./single.html" class=""
+                      ><img src="./assets/img/discover3.jpg" alt=""
+                    /></a>
+                  </div>
+                  <div class="post-item__content">
+                    <div class="post-item__header">
+                      <div class="post-item__header--cat">
+                        <a href="">Travel</a>
+                      </div>
+                      <h2 class="post-item__header--title">
+                        <a href="./single.html">FAR FAR AWAY IN THE SEA</a>
+                      </h2>
+                      <div class="post-item__header--date">
+                        <time class="" datetime="2017-06-07T13:45:35+00:00"
+                          >June 7, 2017</time
+                        >
+                      </div>
+                    </div>
+                    <div class="post-item__desc">
+                      Lommodo ligula eget dolor. Aenean massa. Cum sociis que
+                      penatibus et magnis dis parturient montes lorem, nascetur
+                      ridiculus mus. Donec quam felis, ultricies nec, penatibus
+                      et magnis dis parturient montes lorem, nascetur ridiculus
+                      mus. Donec quam felis, ultricies nec, pellentesque euro,
+                      pretium quis, sem. Nulla…
+                    </div>
+                  </div>
+                </article>
+              </li>
+              <li class="category__list--post">
+                <article class="post-item">
+                  <div class="post-item__thumbnail">
+                    <a href="./single.html" class=""
+                      ><img src="./assets/img/discover2.jpg" alt=""
+                    /></a>
+                  </div>
+                  <div class="post-item__content">
+                    <div class="post-item__header">
+                      <div class="post-item__header--cat">
+                        <a href="">Travel</a>
+                      </div>
+                      <h2 class="post-item__header--title">
+                        <a href="./single.html">FAR FAR AWAY IN THE SEA</a>
+                      </h2>
+                      <div class="post-item__header--date">
+                        <time class="" datetime="2017-06-07T13:45:35+00:00"
+                          >June 7, 2017</time
+                        >
+                      </div>
+                    </div>
+                    <div class="post-item__desc">
+                      Lommodo ligula eget dolor. Aenean massa. Cum sociis que
+                      penatibus et magnis dis parturient montes lorem, nascetur
+                      ridiculus mus. Donec quam felis, ultricies nec, penatibus
+                      et magnis dis parturient montes lorem, nascetur ridiculus
+                      mus. Donec quam felis, ultricies nec, pellentesque euro,
+                      pretium quis, sem. Nulla…
+                    </div>
+                  </div>
+                </article>
+              </li>
+            </ul>
+
+            <div class="category__pagination">
+              <ul>
+                <li>
+                  <span aria-current="page" class="page-numbers current"
+                    >1</span
+                  >
+                  <a
+                    class="page-numbers"
+                    href="https://dulichbalo.org/meo-du-lich/page/2"
+                    >2</a
+                  >
+                  <a
+                    class="page-numbers"
+                    href="https://dulichbalo.org/meo-du-lich/page/3"
+                    >3</a
+                  >
+                  <a
+                    class="page-numbers"
+                    href="https://dulichbalo.org/meo-du-lich/page/4"
+                    >4</a
+                  >
+                  <a
+                    class="page-numbers"
+                    href="https://dulichbalo.org/meo-du-lich/page/5"
+                    >5</a
+                  >
+                  <a
+                    class="page-numbers"
+                    href="https://dulichbalo.org/meo-du-lich/page/6"
+                    >6</a
+                  >
+                  <a
+                    class="page-numbers"
+                    href="https://dulichbalo.org/meo-du-lich/page/7"
+                    >7</a
+                  >
+                  <a
+                    class="page-numbers"
+                    href="https://dulichbalo.org/meo-du-lich/page/8"
+                    >8</a
+                  >
+                  <a
+                    class="page-numbers"
+                    href="https://dulichbalo.org/meo-du-lich/page/9"
+                    >9</a
+                  >
+                  <a
+                    class="page-numbers"
+                    href="https://dulichbalo.org/meo-du-lich/page/10"
+                    >10</a
+                  >
+                  <a
+                    class="page-numbers"
+                    href="https://dulichbalo.org/meo-du-lich/page/11"
+                    >11</a
+                  >
+                  <a
+                    class="next page-numbers"
+                    href="https://dulichbalo.org/meo-du-lich/page/2"
+                    >Trang tiếp theo</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="category__sidebar">
+            <aside class="widget__sidebar widget__last-news">
+              <h3 class="widget__title"><span>Recent Posts</span></h3>
+              <ul class="widget__newsfeed">
+                <li class="widget__newsfeed--item">
+                  <div class="side-item">
+                    <div class="side-image">
+                      <a href="./single.html"
+                        ><img src="./assets/img/home1.jpg" alt=""
+                      /></a>
+                    </div>
+                    <div class="side-item__content">
+                      <h4 class="side-item__title">
+                        <a href="./single.html">Green Corner in My Home</a>
+                      </h4>
+                      <span class="side-item__date">June 7, 2017</span>
+                    </div>
+                  </div>
+                </li>
+                <li class="widget__newsfeed--item">
+                  <div class="side-item">
+                    <div class="side-image">
+                      <a href="./single.html"
+                        ><img src="./assets/img/home2.jpg" alt=""
+                      /></a>
+                    </div>
+                    <div class="side-item__content">
+                      <h4 class="side-item__title">
+                        <a href="./single.html">Far far away in the Sea</a>
+                      </h4>
+                      <span class="side-item__date">June 7, 2022</span>
+                    </div>
+                  </div>
+                </li>
+                <li class="widget__newsfeed--item">
+                  <div class="side-item">
+                    <div class="side-image">
+                      <a href="./single.html"
+                        ><img src="./assets/img/home3.jpg" alt=""
+                      /></a>
+                    </div>
+                    <div class="side-item__content">
+                      <h4 class="side-item__title">
+                        <a href="./single.html">Writing New Life Chapter</a>
+                      </h4>
+                      <span class="side-item__date">June 7, 2023</span>
+                    </div>
+                  </div>
+                </li>
+                <li class="widget__newsfeed--item">
+                  <div class="side-item">
+                    <div class="side-image">
+                      <a href="./single.html"
+                        ><img src="./assets/img/home6.jpg" alt=""
+                      /></a>
+                    </div>
+                    <div class="side-item__content">
+                      <h4 class="side-item__title">
+                        <a href="./single.html">DECORATE MY CORNER</a>
+                      </h4>
+                      <span class="side-item__date">June 8, 2023</span>
+                    </div>
+                  </div>
+                </li>
+                <li class="widget__newsfeed--item">
+                  <div class="side-item">
+                    <div class="side-image">
+                      <a href="./single.html"
+                        ><img src="./assets/img/home4.jpg" alt=""
+                      /></a>
+                    </div>
+                    <div class="side-item__content">
+                      <h4 class="side-item__title">
+                        <a href="./single.html">SAND IN SAN FRANCISCO</a>
+                      </h4>
+                      <span class="side-item__date">June 5, 2021</span>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </aside>
+            <aside class="widget__sidebar widget__category">
+              <h3 class="widget__title"><span>Category</span></h3>
+              <div class="img-test">
+                <img src="./assets/img/test.png" alt="" />
+              </div>
+            </aside>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+      <div class="footer__container container grid">
+        <div class="footer__content grid">
+          <div class="footer__data">
+            <h3 class="footer__title">Dulichbalo.org</h3>
+            <p class="footer__description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid,
+              deleniti, facere eligendi, impedit ducimus suscipit molestias
+              corporis itaque quos repudiandae quas? Enim necessitatibus nemo
+              vero expedita hic rem doloribus officia!
+            </p>
+          </div>
+
+          <div class="footer__data">
+            <h3 class="footer__subtitle">Du lịch Việt Nam</h3>
+            <ul>
+              <li class="footer__item">
+                <a href="" class="footer__link">Du lịch Hà Nội</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">Du lịch Nha Trang</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">Du lịch Phú Quốc</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">Du lịch Côn Đảo</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">Du lịch Vũng Tàu</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__data">
+            <h3 class="footer__subtitle">Du lịch thế giới</h3>
+            <ul>
+              <li class="footer__item">
+                <a href="" class="footer__link">Du lịch Thái Lan</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">Du lịch Trung Quốc</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">Du lịch Singapore</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">Du lịch Nhật Bản</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">Du lịch Mông Cổ</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__data">
+            <h3 class="footer__subtitle">Ẩm thực du lịch</h3>
+            <ul>
+              <li class="footer__item">
+                <a href="" class="footer__link">Ẩm thực Đà Lạt</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">Ẩm thực Sài Gòn</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">Ẩm thực Huế</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">Ẩm thực Nha Trang</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">Ẩm thực Phú Quốc</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer__rights">
+          <p class="footer__copy">
+            &#169; 2023 Du lịch ba lô Kinh nghiệm du lịch trong nước đầy đủ nhất
+          </p>
+          <div class="footer__terms">
+            <a href="#" class="footer__terms-link">Điều khoản sử dụng</a>
+            <a href="#" class="footer__terms-link">Chính sách bảo mật</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line scrollup__icon"></i>
+    </a>
+
+    <!--=============== SCROLL REVEAL===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
